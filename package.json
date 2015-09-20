@@ -1,6 +1,6 @@
 {
   "name": "polyrepo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Tools for distributed codebases",
   "main": "index.js",
   "scripts": {
