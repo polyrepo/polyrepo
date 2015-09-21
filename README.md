@@ -24,6 +24,17 @@ $ npm install polyrepo
 - filter on missing {tests,licenses,package.json fields,etc}
 - manage stability badges
 - deprecate package & suggest alternative
+- check for 404 links in readmes (eg with gh-md-urls)
+- view all open PRs; with filtering (eg ignore those created by you)
+- managing repos across not just a single user, but also multiple orgs
+  (stackgl, jam3, etc)
+- renaming a module
+- transfer ownership of a module and change "repository" field in package.json
+- prune all node_modules in a folder (save a bit of disk space)
+- fixing a bug in a module deep in your dependency tree by forking a bunch of
+  its dependents
+- easier diffs of node_module versions to find out why something works on
+  machine A but not on machine B
 
 ## Usage
 ```js
